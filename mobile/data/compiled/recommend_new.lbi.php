@@ -16,19 +16,19 @@
         </div>
         <div class="bd">
             <ul>
-                <?php $_from = $this->_var['new_goods']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods_0_01232200_1417850203');$this->_foreach['new_goods'] = array('total' => count($_from), 'iteration' => 0);
+                <?php $_from = $this->_var['new_goods']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods_0_92464500_1439374704');$this->_foreach['new_goods'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['new_goods']['total'] > 0):
-    foreach ($_from AS $this->_var['goods_0_01232200_1417850203']):
+    foreach ($_from AS $this->_var['goods_0_92464500_1439374704']):
         $this->_foreach['new_goods']['iteration']++;
 ?>
-                <li><a href="<?php echo $this->_var['goods_0_01232200_1417850203']['url']; ?>"><img src="<?php echo $this->_var['site_url']; ?><?php echo $this->_var['goods_0_01232200_1417850203']['thumb']; ?>" /></a>
+                <li><a href="<?php echo $this->_var['goods_0_92464500_1439374704']['url']; ?>"><img src="<?php echo $this->_var['site_url']; ?><?php echo $this->_var['goods_0_92464500_1439374704']['thumb']; ?>" /></a>
                 <br/>
-                <?php if ($this->_var['goods_0_01232200_1417850203']['promote_price'] != ""): ?> 
-                <span class="price_s"> <?php echo $this->_var['goods_0_01232200_1417850203']['promote_price']; ?> </span> 
+                <?php if ($this->_var['goods_0_92464500_1439374704']['promote_price'] != ""): ?> 
+                <span class="price_s"> <?php echo $this->_var['goods_0_92464500_1439374704']['promote_price']; ?> </span> 
                 <?php else: ?> 
-                <span class="price_s"> <?php echo $this->_var['goods_0_01232200_1417850203']['shop_price']; ?> </span> 
+                <span class="price_s"> <?php echo $this->_var['goods_0_92464500_1439374704']['shop_price']; ?> </span> 
                 <?php endif; ?>
-                <br><?php echo sub_str(htmlspecialchars($this->_var['goods_0_01232200_1417850203']['name']),12); ?>
+                <br><?php echo sub_str(htmlspecialchars($this->_var['goods_0_92464500_1439374704']['name']),12); ?>
                 </li>
                 <?php if ($this->_foreach['new_goods']['iteration'] % 3 == 0 && $this->_foreach['new_goods']['iteration'] != $this->_foreach['new_goods']['total']): ?></ul><ul><?php endif; ?>
                 <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>

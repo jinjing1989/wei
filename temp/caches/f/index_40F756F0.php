@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:19:{i:0;s:46:"D:/APMServ/www/htdocs/themes/miqinew/index.dwt";i:1;s:66:"D:/APMServ/www/htdocs/themes/miqinew/library/page_header_index.lbi";i:2;s:68:"D:/APMServ/www/htdocs/themes/miqinew/library/category_tree_index.lbi";i:3;s:57:"D:/APMServ/www/htdocs/themes/miqinew/library/index_ad.lbi";i:4;s:59:"D:/APMServ/www/htdocs/themes/miqinew/library/index_ad_r.lbi";i:5;s:59:"D:/APMServ/www/htdocs/themes/miqinew/library/index_ad_b.lbi";i:6;s:62:"D:/APMServ/www/htdocs/themes/miqinew/library/pinpaiqiehuan.lbi";i:7;s:58:"D:/APMServ/www/htdocs/themes/miqinew/library/group_buy.lbi";i:8;s:62:"D:/APMServ/www/htdocs/themes/miqinew/library/recommend_hot.lbi";i:9;s:68:"D:/APMServ/www/htdocs/themes/miqinew/library/recommend_promotion.lbi";i:10;s:62:"D:/APMServ/www/htdocs/themes/miqinew/library/recommend_new.lbi";i:11;s:63:"D:/APMServ/www/htdocs/themes/miqinew/library/recommend_best.lbi";i:12;s:58:"D:/APMServ/www/htdocs/themes/miqinew/library/cat_goods.lbi";i:13;s:54:"D:/APMServ/www/htdocs/themes/miqinew/library/top10.lbi";i:14;s:59:"D:/APMServ/www/htdocs/themes/miqinew/library/email_list.lbi";i:15;s:60:"D:/APMServ/www/htdocs/themes/miqinew/library/order_query.lbi";i:16;s:64:"D:/APMServ/www/htdocs/themes/miqinew/library/huiyuanchongzhi.lbi";i:17;s:62:"D:/APMServ/www/htdocs/themes/miqinew/library/index_history.lbi";i:18;s:60:"D:/APMServ/www/htdocs/themes/miqinew/library/page_footer.lbi";}s:7:"expires";i:1417853888;s:8:"maketime";i:1417850288;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:19:{i:0;s:41:"/alidata/www/wei/themes/miqinew/index.dwt";i:1;s:61:"/alidata/www/wei/themes/miqinew/library/page_header_index.lbi";i:2;s:63:"/alidata/www/wei/themes/miqinew/library/category_tree_index.lbi";i:3;s:52:"/alidata/www/wei/themes/miqinew/library/index_ad.lbi";i:4;s:54:"/alidata/www/wei/themes/miqinew/library/index_ad_r.lbi";i:5;s:54:"/alidata/www/wei/themes/miqinew/library/index_ad_b.lbi";i:6;s:57:"/alidata/www/wei/themes/miqinew/library/pinpaiqiehuan.lbi";i:7;s:53:"/alidata/www/wei/themes/miqinew/library/group_buy.lbi";i:8;s:57:"/alidata/www/wei/themes/miqinew/library/recommend_hot.lbi";i:9;s:63:"/alidata/www/wei/themes/miqinew/library/recommend_promotion.lbi";i:10;s:57:"/alidata/www/wei/themes/miqinew/library/recommend_new.lbi";i:11;s:58:"/alidata/www/wei/themes/miqinew/library/recommend_best.lbi";i:12;s:53:"/alidata/www/wei/themes/miqinew/library/cat_goods.lbi";i:13;s:49:"/alidata/www/wei/themes/miqinew/library/top10.lbi";i:14;s:54:"/alidata/www/wei/themes/miqinew/library/email_list.lbi";i:15;s:55:"/alidata/www/wei/themes/miqinew/library/order_query.lbi";i:16;s:59:"/alidata/www/wei/themes/miqinew/library/huiyuanchongzhi.lbi";i:17;s:57:"/alidata/www/wei/themes/miqinew/library/index_history.lbi";i:18;s:55:"/alidata/www/wei/themes/miqinew/library/page_footer.lbi";}s:7:"expires";i:1439372503;s:8:"maketime";i:1439368903;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v2.7.3" />
@@ -156,7 +156,8 @@ catch (e) {
       </div>
     </div>
   </div>
-</div><div class="block">
+</div>
+<div class="block">
   <div class="content">
     <div class="contentBody">
       <div class="mainBody"> <div class="left_nav">
@@ -923,7 +924,8 @@ catch (e) {
         </div>
         
         
-      </div>        <div class="right_banner"> <div id="slideBox" class="slideBox">
+      </div>        <div class="right_banner">  
+<div id="slideBox" class="slideBox">
   <div class="hd">
     <ul>
       <li class="first"> </li>
@@ -946,7 +948,8 @@ catch (e) {
 </div>
 <script type="text/javascript">
 		jQuery(".slideBox").slide({mainCell:".bd ul",effect:"left",trigger:"click"});
-		</script>         <div class="banner_ico">
+		</script> 
+          <div class="banner_ico">
                 	<a href="#" target="_blank"></a>
                     <a href="#" target="_blank"></a>
                     <a href="#" target="_blank"></a>
@@ -971,9 +974,11 @@ catch (e) {
   <div class="big_logo" id="banner_04"> <a href="#" target="_blank"><img src="themes/miqinew/images/b4.jpg" border="0"></a>
     <div class="big_txt" > <a href="#" target="_blank"><img src="themes/miqinew/images/b4_1.png" border="0"></a> </div>
   </div>
-</div> </div>
+</div>
+ </div>
       </div>
-      <div class="mainBody"> <div class="slideTxtBox">
+      <div class="mainBody"> 
+<div class="slideTxtBox">
   <div class="hd">
     <ul>
       <li> <b>欧美品牌</b>
@@ -1046,7 +1051,8 @@ catch (e) {
 </div>
 <script type="text/javascript">
 		jQuery(".slideTxtBox").slide();
-		</script> </div>
+		</script> 
+ </div>
       <div class="mainBody"> <div class="picScroll-left">
   <div class="hd">
     <div class="title_txt"> <img src="themes/miqinew/images/title_txt01.jpg" border="0"> </div>
@@ -1413,6 +1419,7 @@ catch (e) {
       <div class="sucess_joinCart" id="addtocartdialog_retui_122_new">
 </div>
 </dd>
+ 
  
               
    <dd class="hot_dd02" >
@@ -2536,7 +2543,8 @@ function check_email()
     return false;
   }
 }
-</script><script>var invalid_order_sn = "无效订单号"</script>
+</script>
+<script>var invalid_order_sn = "无效订单号"</script>
 <div class="f_l email">
  
   <div class="batch_title"><p>订单查询</p></div>
@@ -2560,7 +2568,8 @@ function check_email()
        
        
       
-      <div class="vip_right">
+      
+<div class="vip_right">
   <div class="vip_title">
     <p>会员充值<span>（享受VIP 专属7大特权）</span></p>
   </div>
@@ -2611,7 +2620,8 @@ function check_email()
 		jQuery(".slideTxtBox2").slide();
 		</script>
   <div class="vip_btn"> <a href="/user.php?act=register"></a> </div>
-</div> 
+</div>
+ 
       
     </div>
   </div>
@@ -2750,7 +2760,7 @@ function clear_history_Response(res)
 </div>
 <div class="blank"></div>
 <div id="footer" style="height:1px; width:1px; overflow:hidden; background:none;">
-  <div class="text"> &copy; 2005-2014 安美弛车品会 版权所有，并保留所有权利。<br />
+  <div class="text"> &copy; 2005-2015 安美弛车品会 版权所有，并保留所有权利。<br />
     上海松江区  
      
     Tel: 400-615-3008 
@@ -2783,7 +2793,7 @@ function clear_history_Response(res)
     <br />
      
     554fcae493e564ee0dc75bdf2ebf94caquery_info|a:1:{s:4:"name";s:10:"query_info";}554fcae493e564ee0dc75bdf2ebf94ca<br />
-    <a href="http://www.ecshop.com" target="_blank" style=" font-family:Verdana; font-size:11px;">Powered&nbsp;by&nbsp;<strong><span style="color: #3366FF">ECShop</span>&nbsp;<span style="color: #FF9966">v2.7.3</span></strong></a>&nbsp;<a href="http://www.ecshop.com/license.php?product=ecshop_b2c&url=http%3A%2F%2Ftest.gope.cn%2F" target="_blank"
+    <a href="http://www.ecshop.com" target="_blank" style=" font-family:Verdana; font-size:11px;">Powered&nbsp;by&nbsp;<strong><span style="color: #3366FF">ECShop</span>&nbsp;<span style="color: #FF9966">v2.7.3</span></strong></a>&nbsp;<a href="http://www.ecshop.com/license.php?product=ecshop_b2c&url=http%3A%2F%2F123.56.114.184%3A8899%2F" target="_blank"
 >&nbsp;&nbsp;Licensed</a><br />
         <div align="left"  id="rss"><a href="feed.php"><img src="themes/miqinew/images/xml_rss2.gif" alt="rss" /></a></div>
   </div>

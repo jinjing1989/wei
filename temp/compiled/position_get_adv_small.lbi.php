@@ -1,14 +1,18 @@
 <div class="hd">
       <ul>
-      {foreach from=$ad_child item=child}
+      <?php $_from = $this->_var['ad_child']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'child_0_42243500_1439369549');if (count($_from)):
+    foreach ($_from AS $this->_var['child_0_42243500_1439369549']):
+?>
         <li></li>
         <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>  
       </ul>
     </div>
     <div class="bd">
      <ul>
-		{foreach from=$ad_child item=child}
-            <li><a href="<?php echo $this->_var['child']['ad_link']; ?>" target="_blank"><img src="data/afficheimg/<?php echo $this->_var['child']['ad_code']; ?>" alt="" class="goodsimg" /></a></li>
+		<?php $_from = $this->_var['ad_child']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'child_0_42247300_1439369549');if (count($_from)):
+    foreach ($_from AS $this->_var['child_0_42247300_1439369549']):
+?>
+            <li><a href="<?php echo $this->_var['child_0_42247300_1439369549']['ad_link']; ?>" target="_blank"><img src="data/afficheimg/<?php echo $this->_var['child_0_42247300_1439369549']['ad_code']; ?>" alt="" class="goodsimg" /></a></li>
         <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>                             	
     </ul>
     </div>
